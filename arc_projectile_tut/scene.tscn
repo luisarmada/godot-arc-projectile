@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cclguhnkfle7d"]
+
+[ext_resource type="PackedScene" uid="uid://cvoni5gbutug8" path="res://arc_projectile.tscn" id="1_dx2m2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
+
+[node name="arc_projectile" parent="." instance=ExtResource("1_dx2m2")]
+position = Vector2(-1, -1)
